@@ -7,7 +7,7 @@
     <meta property="og:title" content="Integration Experts">
     <meta property="og:site_name" content="Integration Experts">
     <meta property="og:url" content="www.integrationexperts.io">
-    <meta property="og:description" content="Simplifying your workflow by connecting software and automating processes.">
+    <meta property="og:description" content="Simplifying your workflow by connecting software, enabling automation and converting manual processes to digital.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/integration_experts_screenshot.png">
 
@@ -34,7 +34,6 @@
         </div>
         <nav>
             <ul>
-                {{--<li><a href="#intro">Intro</a></li>--}}
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -62,51 +61,43 @@
         <article id="work">
             <h2 class="major">Work</h2>
             <div>
-                <span class="image main"><img src="images/betbuddies_screenshot.png" alt="" /></span>
+                <span class="image main"><a href="http://www.betbuddies.co" target="_blank"><img src="images/betbuddies_screenshot.png" alt="www.betbuddies.co" /></a></span>
                 <h4>Bet Buddies</h4>
                 <h6><a href="http://www.betbuddies.co" target="_blank">www.betbuddies.co</a></h6>
-                <p>Peer to peer betting website for creating custom bets and tracking scores for the NFL, MLB, NBA and NHL.</p>
-                <ul>
-                    <li>Bovada</li>
-                    <li>Rapid Sports</li>
-                    <li>Twitter</li>
-                </ul>
+                <p><strong>Goal:</strong> To create a betting website where users can create custom bets without the need for 'the house' to take their money.</p>
+                <p><strong>How it was done:</strong> Scores and spreads of games were gathered using the Odds API.</p>
+                <p><strong>API's used:</strong> The Odds API</p>
+
             </div>
             <hr>
             <div>
-                <span class="image main"><img src="images/findhighlights_screenshot.png" alt="" /></span>
+                <span class="image main"><a href="http://www.findhighlights.com" target="_blank"><img src="images/findhighlights_screenshot.png" alt="www.findhighlights.com" /></a></span>
                 <h4>Find Highlights</h4>
                 <h6><a href="http://www.findhighlights.com" target="_blank">www.findhighlights.com</a></h6>
-                <p>This project gathers highlights during sports games and converts them to videos and gifs that are easily shareable.</p>
-                <ul>
-                    <li>Google Vision</li>
-                    <li>Twitter</li>
-                    <li>Gyfcat</li>
-                    <li>Sports API</li>
-                </ul>
+                <p><strong>Goal:</strong> To create a shareable gif or video of highlights as soon as they happen.</p>
+                <p><strong>How it was done:</strong> During games a script runs that searches each team's twitter feed for any videos of the game. They regularly post ads so videos were verified to be in-game highlights by a machine learning API. Google Vision. The video is then converted to a gif where the gif and video are posted to the site as well as a twitter feed to create a curated feed of highlights.</p>
+                <p><strong>API's used:</strong> Google Vision, Twitter, and Gyfcat</p>
             </div>
         </article>
 
         <!-- About -->
         <article id="about">
             <h2 class="major">About</h2>
-            {{--<span class="image main"><img src="images/pic03.jpg" alt="" /></span>--}}
-            <p>We're a team of engineers specializing in integrating software for businesses enabling them to be more efficient and automated. We'll turn your paper processes into digital so they never get lost and stay organized.</p>
-            <p>We can take your custom software and integrate it with thousands of third-party vendors:</p>
-            <p>
-                <ul class="icons">
-                    <li><a href="#about" class="icon brands" alt="AWS"><i class="fab fa-aws"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-cc-stripe"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="far fa-file-excel"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-google"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-mailchimp"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-ebay"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-slack"></i></a></li>
-                    <li><a href="#about" class="icon brands"><i class="fab fa-amazon"></i></a></li>
-                </ul>
-            </p>
+            <span class="image main"><img src="images/about.jpg" alt="" /></span>
+            <p><strong>Who are we?</strong> We're a team of engineers located in the southeastern U.S. specializing in integrating all types of software to others from custom in-house to popular software such as Quickbooks or Excel.</p>
+            <p><strong>How will it work?</strong> Contact us with a description of your goals. We'll reach out for a quick discussion and within 24-48 hours you'll receive an itemized quote and estimated timeline for the project.</p>
+            <ul class="icons">
+                <li><i class="fab fa-aws"></i></li>
+                <li><i class="fab fa-cc-stripe"></i></li>
+                <li><i class="far fa-file-excel"></i></li>
+                <li><i class="fab fa-google"></i></li>
+                <li><i class="fab fa-mailchimp"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-ebay"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-slack"></i></li>
+                <li><i class="fab fa-amazon"></i></li>
+            </ul>
         </article>
 
         <!-- Contact -->
