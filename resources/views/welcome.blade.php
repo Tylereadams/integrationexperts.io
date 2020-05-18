@@ -1,9 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Dimension by HTML5 UP</title>
+    <title>Integration Experts</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta property="og:title" content="Integration Experts">
+    <meta property="og:site_name" content="Integration Experts">
+    <meta property="og:url" content="www.integrationexperts.io">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/integration_experts_screenshot.png">
+
     <link rel="stylesheet" href="css/main.css" />
     <noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 
@@ -58,14 +65,25 @@
                 <span class="image main"><img src="images/betbuddies_screenshot.png" alt="" /></span>
                 <h4>Bet Buddies</h4>
                 <h6><a href="http://www.betbuddies.co" target="_blank">www.betbuddies.co</a></h6>
-                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                <p>Peer to peer betting website for creating custom bets and tracking scores for the NFL, MLB, NBA and NHL.</p>
+                <ul>
+                    <li>Bovada</li>
+                    <li>Rapid Sports</li>
+                    <li>Twitter</li>
+                </ul>
             </div>
             <hr>
             <div>
                 <span class="image main"><img src="images/findhighlights_screenshot.png" alt="" /></span>
                 <h4>Find Highlights</h4>
                 <h6><a href="http://www.findhighlights.com" target="_blank">www.findhighlights.com</a></h6>
-                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                <p>This project gathers highlights during sports games and converts them to videos and gifs that are easily shareable.</p>
+                <ul>
+                    <li>Google Vision</li>
+                    <li>Twitter</li>
+                    <li>Gyfcat</li>
+                    <li>Sports API</li>
+                </ul>
             </div>
         </article>
 
