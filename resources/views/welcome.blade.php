@@ -28,9 +28,10 @@
         <nav>
             <ul>
                 {{--<li><a href="#intro">Intro</a></li>--}}
-                {{--<li><a href="#work">Work</a></li>--}}
-                {{--<li><a href="#about">About</a></li>--}}
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
+                {{--<li><a href="#elements">Elements</a></li>--}}
             </ul>
         </nav>
     </header>
@@ -39,35 +40,61 @@
     <div id="main">
 
         <!-- Intro -->
-        {{--<article id="intro">--}}
-            {{--<h2 class="major">Intro</h2>--}}
-            {{--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>--}}
-            {{--<p>Connecting software is our specialty.</p>--}}
-            {{--<p>Common integrations:--}}
-                {{--<ul>--}}
-                    {{--<li>Google Sheets</li>--}}
-                {{--</ul>--}}
-            {{--</p>--}}
-        {{--</article>--}}
+        <article id="intro">
+            <h2 class="major">Intro</h2>
+            <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+            <p>Connecting software is our specialty.</p>
+            <p>Common integrations:
+                <ul>
+                    <li>Google Sheets</li>
+                </ul>
+            </p>
+        </article>
 
         <!-- Work -->
-        {{--<article id="work">--}}
-            {{--<h2 class="major">Work</h2>--}}
-            {{--<span class="image main"><img src="images/pic02.jpg" alt="" /></span>--}}
-            {{--<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>--}}
-            {{--<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>--}}
-        {{--</article>--}}
+        <article id="work">
+            <h2 class="major">Work</h2>
+            <div>
+                <span class="image main"><img src="images/betbuddies_screenshot.png" alt="" /></span>
+                <h4>Bet Buddies</h4>
+                <h6><a href="http://www.betbuddies.co" target="_blank">www.betbuddies.co</a></h6>
+                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+            </div>
+            <hr>
+            <div>
+                <span class="image main"><img src="images/findhighlights_screenshot.png" alt="" /></span>
+                <h4>Find Highlights</h4>
+                <h6><a href="http://www.findhighlights.com" target="_blank">www.findhighlights.com</a></h6>
+                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+            </div>
+        </article>
 
         <!-- About -->
-        {{--<article id="about">--}}
-            {{--<h2 class="major">About</h2>--}}
+        <article id="about">
+            <h2 class="major">About</h2>
             {{--<span class="image main"><img src="images/pic03.jpg" alt="" /></span>--}}
-            {{--<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>--}}
-        {{--</article>--}}
+            <p>We're a team of engineers specializing in integrating software for businesses enabling them to be more efficient and automated. We'll turn your paper processes into digital so they never get lost and stay organized.</p>
+            <p>We can take your custom software and integrate it with thousands of third-party vendors:</p>
+            <p>
+                <ul class="icons">
+                    <li><a href="#about" class="icon brands" alt="AWS"><i class="fab fa-aws"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-cc-stripe"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="far fa-file-excel"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-google"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-mailchimp"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-ebay"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-slack"></i></a></li>
+                    <li><a href="#about" class="icon brands"><i class="fab fa-amazon"></i></a></li>
+                </ul>
+            </p>
+        </article>
 
         <!-- Contact -->
         <article id="contact">
             <h2 class="major">Contact</h2>
+            <p>Drop us a line and we'll get in touch.</p>
 
             <form method="post" action="#">
                 <div class="fields">
@@ -84,7 +111,7 @@
                         <input type="text" name="phone" id="phone" />
                     </div>
                     <div class="field">
-                        <label for="message">Message</label>
+                        <label for="message">Describe your goals</label>
                         <textarea name="message" id="message" rows="4"></textarea>
                     </div>
                 </div>
@@ -93,46 +120,6 @@
                     {{--<li><input type="reset" value="Reset" /></li>--}}
                 </ul>
             </form>
-
-
-            <!-- Begin Mailchimp Signup Form -->
-            {{--<div id="mc_embed_signup">--}}
-                {{--<form action="https://integrationexperts.us18.list-manage.com/subscribe/post?u=c167762694c67b2d806bc31a0&amp;id=77ffe85d41" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>--}}
-                    {{--<div id="mc_embed_signup_scroll">--}}
-                        {{--<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>--}}
-                        {{--<div class="mc-field-group">--}}
-                            {{--<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>--}}
-                            {{--</label>--}}
-                            {{--<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">--}}
-                        {{--</div>--}}
-                        {{--<br>--}}
-                        {{--<div class="mc-field-group">--}}
-                            {{--<label for="mce-FNAME">First Name </label>--}}
-                            {{--<input type="text" value="" name="FNAME" class="" id="mce-FNAME">--}}
-                        {{--</div>--}}
-                        {{--<br>--}}
-                        {{--<div class="mc-field-group">--}}
-                            {{--<label for="mce-LNAME">Last Name </label>--}}
-                            {{--<input type="text" value="" name="LNAME" class="" id="mce-LNAME">--}}
-                        {{--</div>--}}
-                        {{--<br>--}}
-                        {{--<div class="mc-field-group">--}}
-                            {{--<label for="mce-PHONE">What are your goals for the integration?</label>--}}
-                            {{--<textarea value="" name="PHONE" class="" id="mce-PHONE"></textarea>--}}
-                        {{--</div>--}}
-                        {{--<br>--}}
-                        {{--<div class="mc-field-group size1of2">--}}
-                        {{--</div>	<div id="mce-responses" class="clear">--}}
-                            {{--<div class="response" id="mce-error-response" style="display:none"></div>--}}
-                            {{--<div class="response" id="mce-success-response" style="display:none"></div>--}}
-                        {{--</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->--}}
-                        {{--<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c167762694c67b2d806bc31a0_77ffe85d41" tabindex="-1" value=""></div>--}}
-                        {{--<div class="clear"><input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button"></div>--}}
-                    {{--</div>--}}
-                {{--</form>--}}
-            {{--</div>--}}
-
-            <!--End mc_embed_signup-->
 
         </article>
 
