@@ -7,7 +7,7 @@
     <meta property="og:title" content="Integration Experts">
     <meta property="og:site_name" content="Integration Experts">
     <meta property="og:url" content="www.integrationexperts.io">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Simplifying your workflow by connecting software and automating processes.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/integration_experts_screenshot.png">
 
