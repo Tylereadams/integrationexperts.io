@@ -83,9 +83,9 @@
         <!-- About -->
         <article id="about">
             <h2 class="major">About</h2>
-            <span class="image main"><img src="images/about.jpg" alt="" /></span>
-            <p><strong>Who are we?</strong> We're a team of engineers located in the southeastern U.S. specializing in integrating all types of software to others from custom in-house to popular software such as Quickbooks or Excel.</p>
-            <p><strong>How will it work?</strong> Contact us with a description of your goals. We'll reach out for a quick discussion and within 24-48 hours you'll receive an itemized quote and estimated timeline for the project.</p>
+            <span class="image main"><img src="images/laptop_on_desk.jpg" alt="" /></span>
+            <p><strong>Who are we?</strong> We're a team of engineers located in the Atlanta, GA specializing in integrating all types of software to others from custom in-house to popular software such as Quickbooks or Excel.</p>
+            <p><strong>How will it work?</strong> Contact us with a description of your goals. We'll reach out for a quick conversation and within 24-48 hours you'll receive an itemized quote and estimated timeline for the project.</p>
             <ul class="icons">
                 <li><i class="fab fa-aws"></i></li>
                 <li><i class="fab fa-cc-stripe"></i></li>
@@ -103,25 +103,25 @@
         <!-- Contact -->
         <article id="contact">
             <h2 class="major">Contact</h2>
-            <p>Drop us a line and we'll get in touch.</p>
+            <p>Drop us a line, we'll review your goals and get in touch. After a quick discussion of your goals, we'll provide you with an itemized quote and estimated timeline to completion.</p>
 
             <form method="post" action="#">
                 <div class="fields">
                     <div class="field half">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="name" required />
                     </div>
                     <div class="field">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <label for="email">Email *</label>
+                        <input type="text" name="email" id="email" required/>
                     </div>
                     <div class="field half">
                         <label for="phone">Phone</label>
                         <input type="text" name="phone" id="phone" />
                     </div>
                     <div class="field">
-                        <label for="message">Describe your goals</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
+                        <label for="message">Describe your goals *</label>
+                        <textarea name="message" id="message" rows="4" required></textarea>
                     </div>
                 </div>
                 <ul class="actions">
